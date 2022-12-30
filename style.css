@@ -1,0 +1,285 @@
+html {
+    font-family: 'Inter';
+    box-sizing: border-box;
+}
+
+
+
+
+.heading {
+    position: absolute;
+    width: 1167px;
+    height: 41px;
+    left: 41px;
+    top: 59px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color: #000000;
+}
+
+#btn {
+    position: absolute;
+    width: 285px;
+    height: 67px;
+    left: 41px;
+    top: 177px;
+    background: #000000;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+    color: wheat;
+}
+
+button a {
+    list-style-type: none;
+    text-decoration: none;
+    width: 101px;
+    height: 29px;
+    left: 142px;
+    top: 146px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.lat {
+    position: absolute;
+    width: 1167px;
+    height: 82px;
+    left: 41px;
+    top: 142px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.city {
+    position: absolute;
+    width: 1167px;
+    height: 82px;
+    left: 500px;
+    top: 142px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.host {
+    position: absolute;
+    width: 1167px;
+    height: 82px;
+    left: 975px;
+    top: 142px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color: #000000;
+}
+
+iframe {
+    position: absolute;
+    width: 1308px;
+    height: 649px;
+    top: 370px;
+    left: 41px;
+}
+
+.time {
+    position: absolute;
+    width: 1167px;
+    height: 41px;
+    left: 41px;
+    top: 1058px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.date {
+    position: absolute;
+    width: 1167px;
+    height: 41px;
+    left: 41px;
+    top: 1128px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.pin {
+    position: absolute;
+    width: 1167px;
+    height: 41px;
+    left: 41px;
+    top: 1195px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.msg {
+    position: absolute;
+    width: 1167px;
+    height: 41px;
+    left: 41px;
+    top: 1259px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+
+    color: #000000;
+}
+
+small {
+    font-weight: 400;
+}
+
+input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1408px;
+    height: 85px;
+    top: 1370px;
+    left: 41px;
+    font-size: 50px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+input::placeholder {
+    position: relative;
+    width: 176px;
+    height: 38px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    left: 50px;
+    color: #000000;
+}
+
+i {
+    position: absolute;
+    width: 1408px;
+    height: 85px;
+    top: 1398px;
+    left: 63px;
+}
+
+.box {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 578.39px;
+    height: 359px;
+    left: 49px;
+    top: 1548px;
+
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+.content {
+    width: 590.87px;
+    height: 41px;
+    margin: 10px 40px;
+    top: 1484px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.box2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 578.39px;
+    height: 359px;
+    left: 784px;
+    top: 1548px;
+
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+.box3 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 578.39px;
+    height: 359px;
+    left: 49px;
+    top: 1944px;
+
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 10px;
+
+}
+
+.box4 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 578.39px;
+    height: 359px;
+    left: 784px;
+    top: 1940px;
+
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+.box5 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 578.39px;
+    height: 359px;
+    left: 49px;
+    top: 2339px;
+
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+.box6 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 578.39px;
+    height: 359px;
+    left: 784px;
+    top: 2339px;
+
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 10px;
+
+}

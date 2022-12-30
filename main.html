@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP DATA</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/3686c92cc4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1 class="heading">MY Public IP ADDRESS : <span id="ip"></span></h1>
+        </div>
+        <div class="lat">
+            <p>latitude :<span id="lat"></span></p>
+            <p>long : <span id="long"></span></p>
+        </div>
+        <div class="city">
+            <p>city : <span id="city"></span></p>
+            <p>Region : <span id="reg"></span></p>
+        </div>
+        <div class="host">
+            <p>Organisation : <span id="org"></span></p>
+            <p>Hostname : <span id="host"></span></p>
+        </div>
+        <div id="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4069.7058918167777!2d75.21930481299503!3d19.35133312753226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb69c3f6929bf5%3A0x5d0bb5a98f5f3088!2sShevgaon%2C%20Maharashtra%20414502!5e0!3m2!1sen!2sin!4v1672424715487!5m2!1sen!2sin"
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>>
+        </div>
+    </header>
+
+    <main>
+        <div class="time">
+            <p>Time Zone :<span id="timezone"></span></p>
+        </div>
+        <div class="date">
+            <p>Date And Time : <span id="date"></span></p>
+        </div>
+        <div class="pin">
+            <p>Pincode : <span id="pin"></span></p>
+        </div>
+        <div class="msg">
+            <p>Message: <span id="msg"></span></p>
+        </div>
+
+        <input type="text" placeholder="filter" id="searchText" onkeyup="myFunction()">
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <section>
+            <div class="box">
+                <div class="content">
+                    <p>Name: <span id="name"></span></p>
+                    <p>Branch Type: <span id="branch"></span></p>
+                    <p>Delivery Status: <span id="status"></span></p>
+                    <p>District: <span id="dist"></span></p>
+                    <p>Division: <span id="div"></span></p>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="content">
+                    <p>Name: <span id="name2"></span></p>
+                    <p>Branch Type: <span id="branch2"></span></p>
+                    <p>Delivery Status: <span id="status2"></span></p>
+                    <p>District: <span id="dist2"></span></p>
+                    <p>Division: <span id="div2"></span></p>
+                </div>
+            </div>
+            <div class="box3">
+                <div class="content">
+                    <p>Name: <span id="name3"></span></p>
+                    <p>Branch Type: <span id="branch3"></span></p>
+                    <p>Delivery Status: <span id="status3"></span></p>
+                    <p>District: <span id="dist3"></span></p>
+                    <p>Division: <span id="div3"></span></p>
+                </div>
+            </div>
+            <div class="box4">
+                <div class="content">
+                    <p>Name: <span id="name4"></span></p>
+                    <p>Branch Type: <span id="branch4"></span></p>
+                    <p>Delivery Status: <span id="status4"></span></p>
+                    <p>District: <span id="dist4"></span></p>
+                    <p>Division: <span id="div4"></span></p>
+                </div>
+            </div>
+            <div class="box5">
+                <div class="content">
+                    <p>Name: <span id="name5"></span></p>
+                    <p>Branch Type: <span id="branch5"></span></p>
+                    <p>Delivery Status: <span id="status5"></span></p>
+                    <p>District: <span id="dist5"></span></p>
+                    <p>Division: <span id="div5"></span></p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

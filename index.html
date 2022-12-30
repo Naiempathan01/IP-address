@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Ip Address</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1 class="heading">
+                MY Public IP ADDRESS : <span id="ip"> </span> </h1>
+
+            <button id="btn" onclick="window.location.href='main.html';">Get Data</button>
+            <!--  -->
+        </div>
+    </header>
+
+
+
+
+    <script>
+        //get the ip address
+        function getIpAddress() {
+            fetch(`https://jsonip.com/`)
+                .then((res) => {
+                    return res.json();
+                })
+                .then((data) => {
+                    getInfo(data.ip);
+                })
+                .catch((err) => {
+                    console.log(`catch error ${err}`);
+                });
+        }
+        getIpAddress();
+
+    </script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
